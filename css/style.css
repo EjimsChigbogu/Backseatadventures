@@ -1,0 +1,227 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1, h2, h3, h4, h5, h6,.navbar-nav {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+/* home page first banner  */
+
+#home-banner {
+  background-image: url(../image/IMG_banner_2.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+#main .banner-text h1{
+    line-height:  50px;
+}
+
+.layer {
+  background-color: rgba(94, 86, 86, 0.568);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.home,
+.about,
+.volunteer {
+  color: sandybrown;
+  font-family: "Roboto", sans-serif;
+}
+.home:hover,
+.about:hover,
+.volunteer:hover {
+  color: green;
+  text-decoration: none;
+}
+
+/* section one(home page) with id #sec-one styling */
+
+#sec-one i {
+  color: sandybrown;
+}
+#sec-one .sec-one-text h5 {
+  font-size: 25px;
+  font-weight: 600;
+}
+#sec-one .sec-one-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* section two(home page) with id #sec-two  styling */
+#sec-two i {
+  position: absolute;
+  z-index: -10;
+  color: sandybrown;
+}
+#sec-two p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#sec-two a {
+  text-decoration: none;
+}
+#sec-two span a {
+  font-size: 20px;
+  font-weight: 500;
+}
+#sec-two span a:hover {
+  border-bottom: 5px solid sandybrown;
+  border-radius: 30px;
+  transition: all 0.4s ease;
+}
+
+#sec-two a img:hover {
+  transform: scaleY(1.1);
+  transition: all 0.4 ease;
+}
+
+/* section three(home page) with id #sec-three styling */
+#sec-three h5 {
+  font-weight: 500;
+  font-size: 25px;
+}
+#sec-three p a,
+#sec-three i {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+#sec-three a i {
+  font-size: 10px;
+}
+
+/* section four(home page) with id #sec-four styling */
+
+#sec-four h3,
+span {
+  position: relative;
+}
+#sec-four h3 i {
+  color: sandybrown;
+  position: absolute;
+  z-index: -10;
+}
+
+/* second home page banner section five(home page) with id #sec-five styling  */
+.second-banner {
+  background-image: url(../image/IMG_.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative ;
+  height: 300px ;
+ 
+}
+
+.banner-text{
+  position: absolute;
+  top:50% ;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* about page styling */
+
+ #about-main {
+  background-image: url(../image/aboutBgImg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative ;
+  background-position: center;
+  height: 100vh;
+}
+.about:active{
+color: green;
+}
+
+#about-main h3 h1{
+font-weight: 600;
+}
+#about-main span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* .volunteer section styling */
+
+#felix{
+  height: 270px; 
+  width: 100%;
+}
+
+#Ekene,
+#david{
+    width: 100%;
+    height: auto;
+}
+
+#felix p a,
+#Ekene p a,
+#david p a{
+    font-size: 15px;
+    font-weight: 500;
+   
+}
+
+form button i{
+ color:sandybrown ;
+ font-size: 30px;
+}
+
+.submit-btn {
+  font-size: 20px;
+  font-weight: 500;
+ 
+}
+
+
+
+
+
+
+
+
+
+/* footer styling */
+footer h4 {
+    font-weight: 600;
+}
+
+footer h4 a {
+    text-decoration: none;
+    color:  sandybrown ;
+}
+
+footer h4 a:hover{
+    color: green;
+}
+
+footer i{
+    color:sandybrown ;
+}
+
+
+
+
+
+ @media (max-width: 1026px){ 
+    
+#felix{
+  /* height: 200px;  */
+  width: 100%;
+}
+}  
+
+@media (min-width: 400px){
+    .more{
+        text-align: left;
+    }
+   
+    
+}
